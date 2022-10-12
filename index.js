@@ -1,10 +1,9 @@
-import * as moduloMatematicas from './modulos/matematicas.js' // AQUI IMPORTAMOS TODO
-import getAuthor from './modulos/literatura.js'
+import * as moduloMatematicas from './modulos/controller.js' // AQUI IMPORTAMOS TODO
 
 const sum = moduloMatematicas.suma(4, 12)
 console.log(sum)
 
-const potencia = moduloMatematicas.eleva(2, 21)
-console.log(potencia)
+const multiplicacion = moduloMatematicas.multiplica(2, 21)
+console.log(multiplicacion)
 
 console.log(getAuthor())
